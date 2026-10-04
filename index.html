@@ -167,6 +167,33 @@
       margin: 24px 0 0;
     }
 
+    .team-photo-card {
+      margin: clamp(24px, 4vw, 34px) 0 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 18px;
+      background: rgba(2,13,22,.5);
+      box-shadow: 0 18px 46px rgba(0,0,0,.22);
+    }
+
+    .team-photo-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      background: #081724;
+    }
+
+    .team-photo-card figcaption {
+      padding: 10px 14px 11px;
+      color: rgba(255,255,255,.72);
+      font-size: .78rem;
+      line-height: 1.4;
+      background: rgba(4,18,30,.86);
+      border-top: 1px solid rgba(255,255,255,.10);
+    }
+
     .chip {
       padding: 8px 11px;
       border: 1px solid rgba(255,255,255,.14);
@@ -369,6 +396,11 @@
         <span class="chip">27 Sep – 1 Oct 2026</span>
         <span class="chip">25m short course</span>
       </div>
+
+      <figure class="team-photo-card">
+        <img src="assets/nss-team-nzsc-2026.png" alt="North Shore Swimming team at the 2026 New Zealand Short Course Championships in Christchurch" />
+        <figcaption>North Shore Swimming team · 2026 New Zealand Short Course Championships, Christchurch</figcaption>
+      </figure>
 
       <nav class="nav" aria-label="Championship reports">
         <a class="report-link featured" href="NZSC_2026_meet_editorial_summary_final.html">
