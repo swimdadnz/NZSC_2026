@@ -248,6 +248,12 @@
       background: linear-gradient(110deg, rgba(242,202,54,.20), rgba(28,155,209,.14));
     }
 
+    .report-link.analysis {
+      grid-column: 1 / -1;
+      border-color: rgba(28,155,209,.56);
+      background: linear-gradient(110deg, rgba(28,155,209,.17), rgba(27,179,199,.10));
+    }
+
     .report-copy {
       min-width: 0;
     }
@@ -324,7 +330,7 @@
 
       .lede { margin-top: 16px; }
       .nav { grid-template-columns: 1fr; gap: 10px; margin-top: 30px; }
-      .report-link.featured { grid-column: auto; }
+      .report-link.featured, .report-link.analysis { grid-column: auto; }
       .report-link { min-height: 66px; padding: 14px 15px; }
       .report-link.featured { min-height: 76px; }
       .footer { flex-direction: column; gap: 6px; }
@@ -447,6 +453,14 @@
           <span class="report-copy">
             <span class="report-kicker">Thursday · Day 5</span>
             <span class="report-title">Day 5 summary</span>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="report-link analysis" href="NZSC_2026_DQ_analysis_full_meet.html">
+          <span class="report-copy">
+            <span class="report-kicker">Meet analysis</span>
+            <span class="report-title">Disqualification analysis · lanes, events and daily rates</span>
           </span>
           <span class="arrow" aria-hidden="true">→</span>
         </a>
